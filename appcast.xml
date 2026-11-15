@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Chitra</title>
+    <item>
+      <title>Chitra 0.1.0</title>
+      <pubDate>Sun, 15 Nov 2026 15:04:27 GMT</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>
+section { margin-bottom: 12px; }
+section h3 small { font-weight: normal; color: #6E6E73; }
+.install { font-size: 10.5px; font-weight: bold; color: #fff; background: #0A84FF; border-radius: 4px; padding: 0 5px; }
+section.sparkle-installed-version > * { display: none; }
+section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
+section.sparkle-installed-version ~ section { display: none; }
+</style>
+<section data-sparkle-version="48" data-version="0.1.0">
+<h3>v0.1.0 <small>2026-11-16</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>처음 버전. mkv · mp4 · webm 등을 mpv 로 재생합니다(하드웨어 디코딩).</li>
+<li>소리 · 자막을 <b>한국어 먼저</b> 자동으로 고릅니다. 한국어 자막이 없으면 파일의 기본 자막. 옆에 둔 자막 파일(srt · smi · ass, CP949 포함)도 자동으로 켭니다. 자막은 흰 글씨 · 검은 테두리로 영상 아래 가운데에.</li>
+<li>단축키: Enter 전체 화면 · Esc 원래 크기 · Space 재생/정지.</li>
+<li>마우스를 창 위에 올리면 네 변이 굵어지고, 가장자리 · 모서리를 넓게 잡아 영상 비율대로 크기를 바꿉니다. 창 폭 · 위치를 기억하고 새 창은 가로 1024(설정에서 「마지막 크기」로).</li>
+<li>시리즈면 끝나기 10초 전 「다음 회차」 카드가 뜨고 이어서 재생합니다. 시리즈마다 고른 소리 · 자막 언어와 파일마다 이어 보기 위치를 기억합니다.</li>
+<li>창을 여러 개 열 수 있습니다(새 창이 재생하면 다른 창은 일시정지, 설정에서 동시 재생).</li>
+<li>Claude API 자막 번역(자막 목록 › 시작 전에 번역 / 보면서 번역): 자막 파일과 영상 안 글자 자막. 키는 Chitra 전용 키체인, 하루 예상 금액 상한, 번역 자막은 영상 옆 <code>이름.ko.srt</code>.</li>
+<li>시작 화면(폴더 · 이어 보기), 설정 창(일반 · 재생 · 번역 · 업데이트 · 정보), 머리 색 9가지 · 글씨 크기 4단계, 앱 안 업데이트.</li>
+</ul>
+</section>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.1.0.zip" length="20474718" type="application/octet-stream" sparkle:edSignature="btjrEXQLnw5s3q14Oy/i9TE1UJmDrS/MwIs3phwcXHWoh3Iw8ovAhjErHXnzrBlIrUVxPq6TSb26zbq9gwYIBw=="/>
+    </item>
+  </channel>
+</rss>
