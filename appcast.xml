@@ -3,10 +3,10 @@
   <channel>
     <title>Chitra</title>
     <item>
-      <title>Chitra 0.2.5</title>
-      <pubDate>Tue, 17 Nov 2026 23:21:18 GMT</pubDate>
-      <sparkle:version>62</sparkle:version>
-      <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+      <title>Chitra 0.2.6</title>
+      <pubDate>Thu, 19 Nov 2026 14:35:31 GMT</pubDate>
+      <sparkle:version>70</sparkle:version>
+      <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,14 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="70" data-version="0.2.6">
+<h3>v0.2.6 <small>2026-11-19</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>설정 › 업데이트의 단추 이름을 「업데이트…」에서 「업데이트」로 바꿨습니다(새 버전 상자 단추와, 새 버전이 있을 때 「마지막 확인」 줄 단추. 앱 공통 표준).</li>
+</ul>
+</section>
 <section data-sparkle-version="62" data-version="0.2.5">
-<h3>v0.2.5 <small>2026-11-18</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.2.5 <small>2026-11-18</small></h3>
 <ul>
 <li>설정에 「파일 연결」 탭이 생겼습니다. 영상 형식 11가지(MP4 · MKV · MOV · M4V · WebM · AVI · WMV · FLV · TS · MPG · 3GP)마다 Finder에서 열 앱을 보여 주고, 「Chitra로」 · 「모두 Chitra로…」로 Chitra를 기본 앱으로 바꿀 수 있습니다(Finder 「정보 가져오기 › 모두 변경」과 같은 결과). macOS가 형식마다 확인 창을 띄우므로 「‘Chitra’ 사용」을 누르면 됩니다. 바꾼 형식은 「되돌리기…」로 원래 앱으로 돌릴 수 있습니다.</li>
 <li>MKV 파일을 macOS가 동영상으로 알아보도록 형식 선언을 넣었습니다(전에는 Finder에서도 MKV 기본 앱을 Chitra로 정할 수 없었음).</li>
@@ -75,7 +81,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>시작 화면(폴더 · 이어 보기), 설정 창(일반 · 재생 · 번역 · 업데이트 · 정보), 머리 색 9가지 · 글씨 크기 4단계, 앱 안 업데이트.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.5.zip" length="20568442" type="application/octet-stream" sparkle:edSignature="KU/5WTivxGTImfdFeSNCSrKuk9e/34AWoB/1nGoffCdqcmYk3QNdw7LVGgUN2bLj9nHkU8ud5Fo/prcorpcOAg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.6.zip" length="20568514" type="application/octet-stream" sparkle:edSignature="0dJVKUgHYsy36AT2gkuPP/yOED0aGZ+OSXZgHuE0TGJRCWLupccnjWTmo6lsrV5yrbBF/uth81tmiIKsK738BQ=="/>
     </item>
   </channel>
 </rss>
