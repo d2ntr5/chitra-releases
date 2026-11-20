@@ -3,10 +3,10 @@
   <channel>
     <title>Chitra</title>
     <item>
-      <title>Chitra 0.2.12</title>
-      <pubDate>Fri, 20 Nov 2026 16:01:46 GMT</pubDate>
-      <sparkle:version>88</sparkle:version>
-      <sparkle:shortVersionString>0.2.12</sparkle:shortVersionString>
+      <title>Chitra 0.2.13</title>
+      <pubDate>Fri, 20 Nov 2026 17:51:50 GMT</pubDate>
+      <sparkle:version>90</sparkle:version>
+      <sparkle:shortVersionString>0.2.13</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,14 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="90" data-version="0.2.13">
+<h3>v0.2.13 <small>2026-11-21</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>Chitra로 여는 영상 파일에 Chitra 아이콘이 보입니다. 앱 색의 「겹친 장면」 그림 아래에 형식 이름 알약(MKV · MP4 …)이 붙습니다(형식 11가지). Chitra가 그 형식의 기본 앱일 때 Finder에 보입니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="88" data-version="0.2.12">
-<h3>v0.2.12 <small>2026-11-21</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.2.12 <small>2026-11-21</small></h3>
 <ul>
 <li>NAS 영상을 보다가 창을 닫을 때(빨간 신호등 · ⌘W) 앱이 「응답 없음」이 되어 강제 종료해야 하던 문제를 고쳤습니다. 닫을 때 영상 정리를 화면 밖에서 해서, NAS 읽기가 늦어도 창은 바로 닫히고 앱은 계속 움직입니다.</li>
 <li>앱이 2초 넘게 멈추면 그때의 기록을 <code>~/Library/Logs/Chitra/hang-날짜.txt</code>에 남깁니다(맥 밖으로 보내지 않음, 최근 10개). 다시 멈추면 이 파일을 보내 주시면 원인을 찾을 수 있습니다.</li>
@@ -120,7 +126,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>시작 화면(폴더 · 이어 보기), 설정 창(일반 · 재생 · 번역 · 업데이트 · 정보), 머리 색 9가지 · 글씨 크기 4단계, 앱 안 업데이트.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.12.zip" length="20591929" type="application/octet-stream" sparkle:edSignature="D0+EHVK+uRKIXBrsy2hvyCHVEB4is2A5Jqtya2Mspw8dBtKhgj9GOvgJ8q8qNU9isk5qJri3MuEJqUhxbp7GBA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.13.zip" length="29896532" type="application/octet-stream" sparkle:edSignature="ZXQFsE2egKj0UaVTRoH0CefSG9p6zjlz0dZRZhxpyCz4IgQn0VR7jqUvcmt+kB14/IHpyTwcjvR7QesQkL8wBQ=="/>
     </item>
   </channel>
 </rss>
