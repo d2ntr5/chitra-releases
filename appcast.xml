@@ -3,10 +3,10 @@
   <channel>
     <title>Chitra</title>
     <item>
-      <title>Chitra 0.2.14</title>
-      <pubDate>Sat, 21 Nov 2026 03:39:37 GMT</pubDate>
-      <sparkle:version>94</sparkle:version>
-      <sparkle:shortVersionString>0.2.14</sparkle:shortVersionString>
+      <title>Chitra 0.2.15</title>
+      <pubDate>Sat, 21 Nov 2026 05:57:52 GMT</pubDate>
+      <sparkle:version>96</sparkle:version>
+      <sparkle:shortVersionString>0.2.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,16 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="96" data-version="0.2.15">
+<h3>v0.2.15 <small>2026-11-21</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>오프닝 건너뛰기: 오프닝이 나오는 동안 오른쪽 아래에 「오프닝 건너뛰기 › 1:12 남음」 버튼이 뜨고, 누르거나 S 키를 누르면 오프닝 끝으로 갑니다. 위치 막대에 오프닝 구간이 노랗게 보입니다.</li>
+<li>오프닝 구간은 파일 안 챕터(이름이 Opening · OP · Intro · 오프닝)를 먼저 쓰고, 없으면 시리즈마다 한 번 정해 둔 시간을 씁니다. 메뉴 「재생 › 오프닝 지정…」에서 「여기가 시작」 · 「여기가 끝」으로 정하면 같은 시리즈의 다른 회차에도 씁니다. 한 회차만 오프닝이 늦게 나오면 「이 회차 오프닝 위치 조정」.</li>
+<li>설정 › 재생 「오프닝에서」: 버튼 보이기(기본) · 자동으로 건너뛰기 · 끔. 자동은 재생하다 오프닝에 들어서면 바로 끝으로 갑니다(일부러 오프닝 안으로 옮기면 버튼만).</li>
+</ul>
+</section>
 <section data-sparkle-version="94" data-version="0.2.14">
-<h3>v0.2.14 <small>2026-11-21</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.2.14 <small>2026-11-21</small></h3>
 <ul>
 <li>재생 창에서 ← → 키로 영상을 뒤로 / 앞으로 움직입니다(기본 5초). 가운데에 「5초 앞으로 0:15」처럼 잠깐 보여 주고, 처음과 끝 1초 전에서 멈춥니다.</li>
 <li>설정에 「단축키」 탭을 새로 두었습니다. ← → 한 번에 움직일 크기를 초 · 분 단위로 1~60까지 고르고, Chitra의 단축키를 한눈에 봅니다.</li>
@@ -133,7 +141,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>시작 화면(폴더 · 이어 보기), 설정 창(일반 · 재생 · 번역 · 업데이트 · 정보), 머리 색 9가지 · 글씨 크기 4단계, 앱 안 업데이트.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.14.zip" length="29925792" type="application/octet-stream" sparkle:edSignature="RdMojWE0ZLGhFnfbZwEo7fwe5SNWWo5YtBfnAvJkO388Y/v8SCR/8abCCQP0+bv8j8bynaqDC5rONb398watAA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.15.zip" length="29956534" type="application/octet-stream" sparkle:edSignature="NFAnb15yPoOYvv9k0/6s/389SgdyP+lLN/krgNVakgdhu8sSU08tZon2jqUzSUgetU5moSVZTQNxAar/cePjCA=="/>
     </item>
   </channel>
 </rss>
