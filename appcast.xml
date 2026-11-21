@@ -3,10 +3,10 @@
   <channel>
     <title>Chitra</title>
     <item>
-      <title>Chitra 0.2.21</title>
-      <pubDate>Sat, 21 Nov 2026 10:27:04 GMT</pubDate>
-      <sparkle:version>109</sparkle:version>
-      <sparkle:shortVersionString>0.2.21</sparkle:shortVersionString>
+      <title>Chitra 0.2.22</title>
+      <pubDate>Sat, 21 Nov 2026 11:18:35 GMT</pubDate>
+      <sparkle:version>111</sparkle:version>
+      <sparkle:shortVersionString>0.2.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,17 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="111" data-version="0.2.22">
+<h3>v0.2.22 <small>2026-11-21</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>자막 목록의 영어 약어를 짧은 한국어 이름으로 바꿔 보여 줍니다: Forced → 외국어 대사만, SDH → 소리 설명, Stripped SDH → 전체 대사, Commentary → 해설 등. 바꿀 이름이 정해지지 않은 것은 원래 이름 그대로 두고, 마우스를 올리면 원래 이름이 보입니다. 같은 이름이 둘이면 뒤에 「· 글자」 / 「· 그림」을 붙입니다.</li>
+<li>자막을 자동으로 고를 때 「외국어 대사만」(Forced)을 맨 끝으로 미뤘습니다. 외국어 영상인데 Forced가 골라져 자막이 거의 안 나오던 문제를 고쳤습니다. 같은 언어 안에서는 전체 대사 → 소리 설명 → 외국어 대사만 순서입니다.</li>
+<li>설정 › 재생 › 자막에 두 가지를 더했습니다: 「자막 종류를 쉬운 말로」(기본 켬), 「소리가 한국어일 때」 끔 · 외국어 대사만 · 전체 대사(기본 외국어 대사만 — 없으면 끔).</li>
+<li>조작 막대 자막 단추는 「외국어 대사만」을 골랐을 때 「한국어 · 일부」로 보입니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="109" data-version="0.2.21">
-<h3>v0.2.21 <small>2026-11-21</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.2.21 <small>2026-11-21</small></h3>
 <ul>
 <li>목록 창: 조작 막대의 톱니 왼쪽 목록 단추(또는 L 키, 메뉴 「파일 › 목록」 ⌘0)로 따로 뜨는 「목록」 창을 열고 닫습니다. 옮기거나 늘린 자리 · 크기를 기억합니다.</li>
 <li>위쪽에는 지금 보는 영상과 같은 시리즈의 회차가 보입니다(지금 회차 ▶︎, 끝까지 본 회차 ✓, 본 만큼 주황 줄). 누르면 재생 중인 창에서 재생합니다.</li>
@@ -192,7 +201,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>시작 화면(폴더 · 이어 보기), 설정 창(일반 · 재생 · 번역 · 업데이트 · 정보), 머리 색 9가지 · 글씨 크기 4단계, 앱 안 업데이트.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.21.zip" length="30090985" type="application/octet-stream" sparkle:edSignature="MVkBEaJzRE4nIObZ4CUmOTMSWrTqRerW7ePg9WOrV+BKwKBDpgOnzM3xuVuKXZ5i8pOxPblACDbC7jM1X/AaBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.22.zip" length="30118547" type="application/octet-stream" sparkle:edSignature="dH/L1FjS+xSjjlRw3uzDPRYJ4NattXbgkJDL/4GEKI9ibxaRqKtQsC3YB/uJHuVGuxLScgzzgSaN/wujDLRjBg=="/>
     </item>
   </channel>
 </rss>
