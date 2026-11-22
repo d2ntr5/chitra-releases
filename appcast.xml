@@ -3,10 +3,10 @@
   <channel>
     <title>Chitra</title>
     <item>
-      <title>Chitra 0.2.23</title>
-      <pubDate>Sat, 21 Nov 2026 11:30:13 GMT</pubDate>
-      <sparkle:version>113</sparkle:version>
-      <sparkle:shortVersionString>0.2.23</sparkle:shortVersionString>
+      <title>Chitra 0.2.24</title>
+      <pubDate>Sun, 22 Nov 2026 15:11:20 GMT</pubDate>
+      <sparkle:version>118</sparkle:version>
+      <sparkle:shortVersionString>0.2.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,18 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="118" data-version="0.2.24">
+<h3>v0.2.24 <small>2026-11-23</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>설정에 「로그」 탭을 새로 두었습니다(번역 다음, 업데이트 앞). 로그는 <code>~/Library/Logs/Chitra</code>에 로그마다 따로 저장합니다: 앱 20 MB · 업데이트 5 MB · 설정 변경 5 MB · 재생 20 MB · 번역 5 MB · 멈춤 기록 20 MB.</li>
+<li>로그마다 켜기 · 끄기 스위치와 「모두 켜기」 · 「모두 끄기」, 크기(지금 / 한도 · 파일 수 · 막대), 「지우기…」가 있습니다. 「로그 초기화…」는 모든 로그를 지웁니다. 둘 다 확인 창을 거칩니다.</li>
+<li>한도에 닿으면 그 로그의 가장 오래된 기록부터 지웁니다(로그마다 파일 5개를 돌려 씀). 멈춤 기록은 멈출 때마다 파일 하나, 최근 10개만 둡니다.</li>
+<li>「로그 내보내기…」는 모든 로그와 지난 파일, 멈춤 기록(<code>hang/</code>), 앱 · macOS · CPU 정보(<code>info.txt</code>)를 zip 하나(<code>Chitra-logs-날짜-시각.zip</code>)로 만듭니다.</li>
+<li>재생 로그는 연 파일 이름(경로 없이) · 코덱 · 실제 디코더(하드웨어 / 소프트웨어) · 자막 자동 선택 · mpv 경고를, 번역 로그는 번역 시작 · 끝 · 토큰 · 비용 · 오류를 남깁니다. 비밀번호 · 키 · 입력한 글 · 자막 글자는 남기지 않습니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="113" data-version="0.2.23">
-<h3>v0.2.23 <small>2026-11-21</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.2.23 <small>2026-11-21</small></h3>
 <ul>
 <li>목록 창에서 영상을 두 번 눌러야 재생합니다(한 번 누르면 고르기만). 재생 창이 있으면 그 창에서, 없으면 새 창에서 재생합니다.</li>
 <li>소리가 한국어인 영상은 설정 「소리가 한국어일 때」(기본 외국어 대사만)를 시리즈 앞 회차의 기억보다 먼저 따릅니다. 「외국어 대사만」으로 두었는데 「소리 설명」이 골라지던 문제를 고쳤습니다.</li>
@@ -209,7 +219,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>시작 화면(폴더 · 이어 보기), 설정 창(일반 · 재생 · 번역 · 업데이트 · 정보), 머리 색 9가지 · 글씨 크기 4단계, 앱 안 업데이트.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.23.zip" length="30123955" type="application/octet-stream" sparkle:edSignature="nDJR7WBDrlrq4MBeV5pnGnD24MkEEMxEZ01geiNgU16xmIcQwgodKUIRvnC23SE8nWz6SgqWb2G0RLU61VMKBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/chitra-releases/main/releases/Chitra-0.2.24.zip" length="30189298" type="application/octet-stream" sparkle:edSignature="BpVBf+LaZhV3TyqTPSp/bxJDIfYHrl4a5AqE4b9N4ZY5lsSQQebG67+e2z+e5aOKEzeR5mWnvhN0oiL7ERkNAA=="/>
     </item>
   </channel>
 </rss>
